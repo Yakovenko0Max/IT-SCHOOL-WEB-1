@@ -1,5 +1,35 @@
-header {
+H1 {
+    color: rgb(4, 77, 77);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+
+
+
+
+p{
+    color : black;
+    background-color: rgb(61, 151, 151);
+    font-size: 20px;
+}
+
+
+
+.text{
+    display: flex;
     
+    width: 1000px;
+    color: white;
+    height: 270px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    position: relative;
+    margin-left: 20vw;
+    margin-right: 20vw;
+}
+
+
+
+header {
     position: sticky;
     z-index: 1;
     top: 0px;
@@ -10,24 +40,62 @@ header {
     font-family: Geneva, Tahoma, sans-serif;
     border-radius: 5px;
    }
-   .logotip{
-       margin-left: 3vw;
-   }
-
-.pusto{
-    height: 100%;
-}
 
 footer {
-    position:fixed;
-   left:0px;
-   bottom:0px;
-   height: 100px;
-   width: 100%;
-   background-color: rgb(4, 77, 77);
-   font-family: Geneva, Tahoma, sans-serif;
-   border-radius: 5px;
-   color: white;
+    height: 100px; 
+    color: whitesmoke;
+    background-color: rgb(4, 77, 77);
+    border-radius: 5px;
+    width: 100%;
+}
+
+.photo {
+    display: flex;
+    background-color: white;
+    height: 400px;
+    width: 50vw;
+    margin-left: 15vw;
+    margin-right: 15vw;
+    flex-direction: column;
+    overflow: scroll;
+
+}
+
+.box_1 {
+    position: relative;
+    left: 450px;
+    width: 300px;
+    height: 300px;
+ 
+}
+
+.TT {
+    position: relative;
+    left: 450px;
+}
+.box_2 {
+    position: relative;
+    top: 0px;
+    left: 450px;
+    width: 300px;
+    height: 300px; 
+}
+
+.TT2 {
+    position: relative;
+    left: 450px;
+}
+.box_3 {
+    position: relative;
+    top: 0px;
+    left: 450px;
+    width: 300px;
+    height: 300px;
+}
+
+.TT3 {
+    position: relative;
+    left: 450px;
 }
 
 
