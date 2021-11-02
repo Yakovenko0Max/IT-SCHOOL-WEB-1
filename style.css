@@ -1,0 +1,34 @@
+header {
+    
+    position: sticky;
+    z-index: 1;
+    top: 0px;
+    background-color: rgb(4, 77, 77);
+    height: 75px;
+    width: 100%;
+    color: whitesmoke;
+    font-family: Geneva, Tahoma, sans-serif;
+    border-radius: 5px;
+   }
+   .logotip{
+       margin-left: 3vw;
+   }
+
+.pusto{
+    height: 100%;
+}
+
+footer {
+    position:fixed;
+   left:0px;
+   bottom:0px;
+   height: 100px;
+   width: 100%;
+   background-color: rgb(4, 77, 77);
+   font-family: Geneva, Tahoma, sans-serif;
+   border-radius: 5px;
+   color: white;
+}
+
+
+
