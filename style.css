@@ -1,0 +1,24 @@
+H1 {
+    color: rgb(4, 77, 77);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+p{
+    color : black;
+    background-color: rgb(61, 151, 151);
+    font-size: 20px;
+}
+
+
+
+.text{
+    display: flex;
+    
+    width: 1000px;
+    color: white;
+    height: 270px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    position: relative;
+    margin-left: 20vw;
+    margin-right: 20vw;
+}
